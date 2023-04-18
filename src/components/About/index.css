@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  width: 100vw;
+}
+.about-sm-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+}
+.about-sm-img {
+  max-width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-sm-cont {
+    display: none;
+  }
+}
+
+.about-lg-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+}
+.about-lg-img {
+  max-width: 650px;
+}
+
+@media screen and (max-width: 767px) {
+  .about-lg-cont {
+    display: none;
+  }
+}
